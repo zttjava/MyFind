@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-module
+  type="WEB"
+  name="FindServer"
+  id="myeclipse.1435147054730"
+  context-root="/FindServer"
+  j2ee-spec="5.0"
+  archive="FindServer.war">
+  <attributes>
+    <attribute name="webrootdir" value="WebRoot" />
+  </attributes>
+</project-module>
+

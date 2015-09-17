@@ -1,0 +1,7 @@
+create table user(id varchar(60) primary key,username varchar(40),password varchar(40),phonenumber varchar(40),email varchar(40),school varchar(40));
+create table article(articleid varchar(60) primary key,title varchar(255),content varchar(2048),emittime varchar(40),lasttime varchar(40),articletype varchar(255),userid varchar(60),
+constraint userid_FK foreign key(userid) references user(id));
+
+用户与文章之间是一对多关系，在多的一方建立关系。
+userid varchar(60),
+constraint userid_FK foreign key(userid) references user(id)
